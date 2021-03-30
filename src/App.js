@@ -14,6 +14,7 @@ export default function App() {
               <Route path="/">
                <Main />            
               </Route>
+              <Redirect from="*" to="/" />
             </Switch>
           </Router>
     )
